@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">   
+
+    <!--owl css files-->
+    <link rel="stylesheet" href="style/css-owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/css-owl/owl.theme.default.min.css">
+
+    <title>Bookflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">BOOKFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Investimentos e Finanças</a>
+                <a href="#">Estilo de vida</a>
+                <a href="#">Gestão e Liderança</a>
+                <a href="#"> Outras categorias</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="livro-principal">
+            <div class="container">
+                <h3 class="titulo-livro">PAI RICO, PAI POBRE</h3>
+                <p class="descricao">O mundo mudou; a maioria dos jovens tem cartão de crédito, antes mesmo de concluir os estudos, e nunca teve aula sobre dinheiro, investimentos, juros etc.</p>
+                <div class="botoes">
+                    <button onclick="video_url()" role="button" class="botao-assistir">
+                        <i class="fas fa-play"></i>
+                        INICIAR
+                    </button>
+                    <button onclick="mais_info()" role="button" class="botao-info">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES                        
+                    </button>
+                </div>
+            </div>        
+        </div>
+    </main>
+    <div class="texto-categ-destaque">
+        <a href="#" class="mais-acessados" onmouseover="trocar(this)" onmouseout="voltar_acess(this)">Mais Acessados</a>
+    </div> 
+    <div class="carrossel-livros">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-livros-destaque" src="img/mil-milhao.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-destaque" src="img/torto-arado.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-destaque" src="img/corte-espin-rosas.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-destaque" src="img/mul-corr-lobos.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-destaque" src="img/garota-lago.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+        </div>
+    </div>
+    <div class="texto-categ-invest-fin">
+        <a href="#" class="invest-fin" onmouseover="trocar(this)" onmouseout="voltar_invest_fin(this)">Investimentos e Finanças</a>
+    </div> 
+    <div class="carrossel-invest-fin">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-livros-invest-fin" src="img/casais-intelige.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-invest-fin" src="img/mais-esperto-q-diabo.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-invest-fin" src="img/poder-agora.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-invest-fin" src="img/coach-1-tri.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-invest-fin" src="img/hom-mais-rico-babil.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+        </div>
+    </div>
+    <div class="texto-categ-gest-lid">
+        <a href="#" class="gest-lid" onmouseover="trocar(this)" onmouseout="voltar_gest_lid(this)">Gestão e Liderança</a>
+    </div> 
+    <div class="carrossel-gest-lid">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-livros-gest-lid" src="img/lideranca-a-intel-emoc.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-gest-lid" src="img/monge-exec.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-gest-lid" src="img/21-leis-irre.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-gest-lid" src="img/mindset.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+            <div class="item">
+                <img class="box-livros-gest-lid" src="img/pipeline-lider.jpg" alt="As 21 indispensaveis qualidades..." srcset="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/696b3ac9a1.js" crossorigin="anonymous"></script>
+    <script src="js/js-owl/jquery.min.js"></script>
+    <script src="js/js-owl/owl.carousel.min.js"></script>
+    <script src="js/js-owl/setup.js"></script>
+    
+
+</body>
+</html>

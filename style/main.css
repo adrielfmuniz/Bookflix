@@ -1,0 +1,186 @@
+
+:root{
+    --vermelho: #e50914;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza: #b3b3a3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+
+body{
+    background: var(--preto);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, times;
+    color: var(--branco);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family:  'Segoe UI', sans-serif;
+    font-size: 35px;
+    margin-right: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .2s ease all;
+}
+
+header nav a:hover {
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+/*Elementos Filme Principal*/
+
+.livro-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, .50) 100%), url(/img/pai-rico-pobre-wide.jpg);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.livro-principal .titulo-livro {
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.livro-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.botao-assistir {
+    background-color: var(--branco);
+    color: var(--preto);
+    margin-right: 15px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .15s ease all;
+}
+
+.botao-assistir:hover {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.botao-assistir i {
+    margin-right: 8px;
+}
+
+.botao-info {
+    background-color: rgba(255, 255, 255, 0.20);
+    color: var(--branco);
+    margin-right: 15px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .15s ease all;
+}
+
+.botao-info:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.botao-info i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 25px;
+}
+
+.livro-principal .container {
+    width: 60%;
+}
+
+/*Elementos Carrossel*/
+
+.texto-categ-destaque .mais-acessados {
+    color: var(--branco);
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.box-livros-destaque {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    border-color: var(--branco);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.carrossel-livros {
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+
+.texto-categ-invest-fin .invest-fin {
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.box-livros-invest-fin {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.carrossel-invest-fin {
+    margin-top: 8px;
+}
+
+.texto-categ-gest-lid .gest-lid {
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.box-livros-gest-lid {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.carrossel-gest-lid {
+    margin-top: 8px;
+}
