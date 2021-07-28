@@ -6,5 +6,5 @@ Interface clone do Netflix web com:
 
 
 <h3 align="center">Bookflix Preview</h3>
-<p align="center"> <a target="_blank"> <img src="https://github.com/adrielfmuniz/Netflix_Android_Interface/blob/main/Netflix%20Android%20Interface%20preview.jpeg" alt="Netflix Interface" width="688" height="1280"/> </a>
+<p align="center"> <a target="_blank"> <img src="https://github.com/adrielfmuniz/Bookflix/blob/main/img/pai-rico-pobre-gif.mp4" alt="Netflix Interface" width="688" height="1280"/> </a>
 
